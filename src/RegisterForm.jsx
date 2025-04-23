@@ -12,7 +12,7 @@ function RegisterForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/register", { name, email, phone, location })
+      .post("https://back-end-mern-n8rl.onrender.com/register", { name, email, phone, location })
       .then((result) => setStatus(result.data))
       .catch((err) => setStatus(err.message));
   };
