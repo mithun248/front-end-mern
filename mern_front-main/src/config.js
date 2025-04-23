@@ -1,1 +1,0 @@
-export const API_BASE_URL = 'https://mern-back-h6eo.onrender.com'; 
